@@ -17,7 +17,6 @@ int partition(int A[], int p, int q)
     swap(A[p], A[i]);
     return i;    
 }
-
 void Quicksort(int A[], int p, int r)
 {
     if(p < r)
@@ -27,7 +26,6 @@ void Quicksort(int A[], int p, int r)
         Quicksort(A, q + 1, r);     
     }    
 }
-
 int main()
 {
     int A[ ] = {6,10,13,5,8,3,2,11,4,12};
